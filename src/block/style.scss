@@ -1,0 +1,25 @@
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+
+.wp-block-cgb-block-my-block  {
+  background: $red;
+  border: 0.2rem solid $black;
+  color: $black;
+  margin: 0 auto;
+  max-width: 740px;
+  padding: 2rem;
+}
+.wp-block-cgb-block-my-block.clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #17D4FE;
+    font-size: 60px;
+    font-family: Orbitron;
+    letter-spacing: 7px;
+
+}
